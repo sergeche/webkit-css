@@ -19,14 +19,14 @@ Mac
 ---
 * Safari: `/System/Library/Frameworks/WebKit.framework/Versions/A/Frameworks/WebCore.framework/Versions/A/Resources/inspector`
 * Chrome: Right-click on _Google Chrome_ app → Show Package Contents → `Contents/Versions/5.0.307.11/Google Chrome Framework.framework/Resources/inspector`. The version number (5.0.307.11 in this example) may vary depending on your Google Chrome version
-* WebKit: Right-click on _WebKit_ app → Show Package Contents → `Contents/Frameworks/<Version>/WebCore.framework/Versions/A/Resources/inspector` where <Version> is your current OS version (Leopard — 10.5, Snow Leopard — 10.6).
+* WebKit: Right-click on _WebKit_ app → Show Package Contents → `Contents/Frameworks/<Version>/WebCore.framework/Versions/A/Resources/inspector` where `<Version>` is your current OS version (Leopard — 10.5, Snow Leopard — 10.6).
 	
 Windows
 -------
 Assuming you have installed browser in default location.
 
 * Safari on Windows doesn't have Web Inspector by default, use Google for installation instructions
-* Chrome: `C:\Documents and Settings\<UserName>\Local Settings\Application Data\Google\Chrome\Application\4.0.249.89\Resources\Inspector` where <UserName> is your system user name (note that version number — 4.0.249.89 — may vary).
+* Chrome: `C:\Documents and Settings\<UserName>\Local Settings\Application Data\Google\Chrome\Application\4.0.249.89\Resources\Inspector` where `<UserName>` is your system user name (note that version number — 4.0.249.89 — may vary).
 	
 3. Open _inspector.html_ (Safari, WebKit) or _devtools.html_ (Chrome) in your favorite text editor and add `<script type="text/javascript" src="SC-CSSAdditions.js"></script>` at the end of `<head>` section.
 4. Restart your browser.
