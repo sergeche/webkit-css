@@ -4,6 +4,7 @@ Display CSS rule line number in Safari/WebKit/Chrome Web Inspector
 WebKit-based browsers like Safari or Google Chrome has gorgeous Web Inspector, which, unfortunately, doesn't display CSS rule's line numbers (as Firebug does).
 
 This hack tries to fix this problem:
+
 ![Example](http://img638.yfrog.com/img638/715/q0b.png)
 
 How to install
@@ -37,7 +38,7 @@ Know issues
 * Line numbers are displayed for external stylesheets only.
 * Nested rules are not supported (for example, inside `@media` section).
 
-Please note that this hack is in early development state and may not provide proper line numbers for style rules. If you've found such problem please report it at http://github.com/sergeche/webkit-css/issues and provide CSS example.
+Please note that this hack is in early development state and may not provide proper line numbers for style rules. If you've found such problem please [report it](http://github.com/sergeche/webkit-css/issues) and provide CSS example.
 
 How it works
 ============
