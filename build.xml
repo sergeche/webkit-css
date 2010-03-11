@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <project name="WebInspector CSS line" default="build">
+ 	<target name="build">
+ 		<concat destfile="build/SC-CSSAdditions.js">
+ 			<filelist dir="src">
+ 				<file name="CSSParser.js"/>
+ 				<file name="webkit-controller.js"/>
+ 			</filelist>
+ 		</concat>
+ 		<echo>Build done</echo>
+ 	</target>
+ </project>

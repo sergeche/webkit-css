@@ -1,0 +1,70 @@
+@import url(file.css);
+
+#content {
+	overflow:hidden;
+	width:auto;
+	padding-left:524px;
+	margin-left:-500px;
+}
+
+div {
+	color:#000;
+}
+
+.section {
+	width:40%;
+	float:left;
+	padding-right:5%;
+	margin-left:0;
+}
+
+div {
+	font-size:14px;
+}
+
+/* .section .media {
+	width:100%;
+	margin-right:-100%;
+	position:relative;
+	left:-24px;
+	margin-bottom:2em;
+} */
+
+.section .media img {
+	display:block;
+}
+
+.section .media .play {
+	display:block;
+	margin:25px 0 0 24px;
+	width:25px;
+	height:25px;
+	cursor:pointer;
+	background:url(../i/icons.png) -25px -30px no-repeat;
+	overflow:hidden;
+}
+
+.section2 .media .play {
+	background-position:-25px 0px;
+}
+
+@media all and (min-width: 640px) { 
+	#media-queries-1 {
+		background-color: #0f0;	
+	}
+	
+	#media-queries-2 {
+		background-color: #0f0;	
+	}
+}
+
+@media screen and (max-width: 2000px) {
+	#media-queries-2 {
+		background-color: #0f0;
+	}
+}
+
+@-webkit-keyframes move-page-in-left {
+	from { -webkit-transform:translateX(320px); }
+	to { -webkit-transform:translateX(0px); }
+}
