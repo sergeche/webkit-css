@@ -10,9 +10,9 @@ This hack tries to fix this problem:
 How to install
 ==============
 
-The installation process is quite simple: all you have to do is to add downloaded `SC-CSSAdditions.js` script to *inspector.html* (Safari, Webkit) or *devtools.html* (Chrome). Here's a step-by-step instruction:
+The installation process is quite simple: all you have to is to add downloaded `SC-CSSAdditions.js` script to *inspector.html* (Safari, Webkit) or *devtools.html* (Chrome). Here's a step-by-step instruction:
 
-1. [Download](http://github.com/sergeche/webkit-css/downloads) archive
+1. Download archive
 2. Unpack its contents and copy `SC-CSSAdditions.js` file into *inspector* folder. Its location is different for every browser and platform:
 
 Mac
